@@ -17,7 +17,7 @@
     "categories": ["docker"],
     "platform": "linux",
     "logo": "https://www.appscale.com/wp-content/uploads/2016/05/new-AppScale_logo.png",
-    "image": "appscale002:latest",
+    "image": "appscale001:latest",
     "ports": [
       "8080/tcp",
       "1443/tcp"
