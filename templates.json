@@ -1,17 +1,5 @@
 [
   {
-    "title": "Registry",
-    "description": "Docker image registry",
-    "categories": ["docker"],
-    "platform": "linux",
-    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
-    "image": "registry:latest",
-    "ports": [
-      "5000/tcp"
-    ],
-    "volumes": ["/var/lib/registry"]
-  },
-  {
     "title": "aionappscale",
     "description": "ai on appscale",
     "categories": ["docker"],
@@ -25,6 +13,18 @@
     "volumes": ["/opt/appscale"],
     "command": "bash /root/fast-start.sh --user wanddy@163.com --passwd Passw0rd"
   },
+  {
+    "title": "Registry",
+    "description": "Docker image registry",
+    "categories": ["docker"],
+    "platform": "linux",
+    "logo": "https://cloudinovasi.id/assets/img/logos/registry.png",
+    "image": "registry:latest",
+    "ports": [
+      "5000/tcp"
+    ],
+    "volumes": ["/var/lib/registry"]
+  },  
   {
     "title": "Nginx",
     "description": "High performance web server",
