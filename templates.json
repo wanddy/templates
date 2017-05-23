@@ -23,7 +23,7 @@
       "1443/tcp"
     ],
     "volumes": ["/opt/appscale"],
-    "command": "bash /root/fast-start.sh"
+    "command": "cd /root && bash /root/fast-start.sh"
   },
   {
     "title": "Nginx",
